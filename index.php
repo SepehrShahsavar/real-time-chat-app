@@ -10,10 +10,20 @@
     </head>
     <body>
         <div class="wrapper">
-          <section class="form login">
+          <section class="form signup">
             <header>Realtime Chat App</header>
             <form action="#">
                 <div class="error-text">This is an error message</div>
+                <div class="name-details">
+                    <div class="field input">
+                        <label>First Name</label>
+                        <input type="text" placeholder="First name">
+                    </div>
+                    <div class="field input">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Last name">
+                    </div>
+                </div>
                 <div class="field input">
                     <label>Email</label>
                     <input type="text" placeholder="Email">
@@ -21,14 +31,20 @@
                 <div class="field input">
                     <label>Password</label>
                     <i class="fas fa-eye"></i>
-                    <input type="text" placeholder="Password">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="field image">
+                    <label>Select Image</label>
+                    <input type="file">
                 </div>
                 <div class="field button">
                     <input type="submit"  value="Continue to Chat">
                 </div>
             </form>
-            <div class="link">Not yet signed up? <a href="#">Signup now</a></div>
+            <div class="link">Already signed up? <a href="#">Login now</a></div>
           </section>
         </div>
+        <script src="JS/pass-show-hide.js"></script>
+        <script src="JS/signup.js"></script>
       </body>
 </html>
