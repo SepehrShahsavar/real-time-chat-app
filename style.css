@@ -355,7 +355,7 @@ body{
 
 .typing-area input{
     height: 45px;
-    width: calc(100%- 58px);
+    width: calc(100% - 58px) !important;
     font-size: 17px;
     border: 1px solid #ccc;
     padding: 0 13px;
